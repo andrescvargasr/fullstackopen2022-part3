@@ -28,7 +28,7 @@ Another typical problem is that the application is not configured to use the por
 
 ![ex 3.10 terminal showing error about failing to bind to port](images/ex-3_10b.png)
 
-Create a README.md at the root of your repository, and add a link to your online application to it.
+Create a **README.md** at the root of your repository, and add a link to your online application to it.
 
 ## 3.11 phonebook full stack
 
