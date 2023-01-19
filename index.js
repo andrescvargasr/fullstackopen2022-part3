@@ -26,12 +26,22 @@ let persons = [
   }
 ]
 
+/* Index page */
 app.get('/', (request, response) => {
   response.send('<h1>Hello World!!!</h1>')
 })
 
+/* Phonebook JSON page */
 app.get('/api/persons', (request, response) => {
   response.json(persons)
+})
+
+/* Info page */
+app.get('/info', (request, response) => {
+  const date = new Date();
+  const info = `<p>Phonebook has info for ${persons.length} people</p>
+                <p>${date}</p>`;
+  response.send(info);
 })
 
 app.get('/api/notes/:id', (request, response) => {
