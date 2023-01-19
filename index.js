@@ -56,10 +56,10 @@ app.get('/api/persons/:id', (request, response) => {
   }
 })
 
-/* Deleting the note with the id that is passed in. */
-app.delete('/api/notes/:id', (request, response) => {
+/* Deleting the phoneinfo with the id that is passed in. */
+app.delete('/api/persons/:id', (request, response) => {
   const id = Number(request.params.id)
-  notes = notes.filter(note => note.id !== id)
+  persons = persons.filter(person => person.id !== id)
 
   response.status(204).end()
 })
