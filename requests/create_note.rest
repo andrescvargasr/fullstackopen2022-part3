@@ -13,3 +13,12 @@ Content-Type: application/json
   "name": "Julio Cesar",
   "number": "10-02-256987"
 }
+
+###
+POST https://weathered-morning-4297.fly.dev/api/persons
+Content-Type: application/json
+
+{
+  "name": "Julio Cesar",
+  "number": "10-02-256987"
+}
