@@ -8,3 +8,6 @@
 
 - Part 3b
   - Exercises 3.9.-3.11
+
+- Part 3c
+  - Exercise 3.12
